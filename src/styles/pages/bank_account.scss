@@ -1,0 +1,11 @@
+@use "../constants/colors" as vars;
+
+.bank-account {
+  color: vars.$color--font;
+  background-color: vars.$color--highlight;
+  margin-top: 90px;
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+}
